@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>CSS Animation - Rectangle</title>
+  <style>
+    .box {
+      width: 100px;     /* rectangle width */
+      height: 50px;     /* rectangle height */
+      background: blue; /* rectangle color */
+      position: relative;
+      animation: bounce 2s infinite;
+    }
+    @keyframes bounce {
+      0%, 100% { top: 0; }
+      50% { top: 200px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="box"></div>
+</body>
+</html>
